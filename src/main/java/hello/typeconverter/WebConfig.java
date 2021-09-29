@@ -6,6 +6,7 @@ import hello.typeconverter.converter.StringToIntegerConverter;
 import hello.typeconverter.converter.StringToIpPortConverter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
